@@ -2,7 +2,7 @@
 
 - [x] Car physics and steering
 - [x] Road generation
-- [ ] Sensors
+- [x] Sensors
 - [ ] Collisions
 - [ ] Neural networks part
 - [ ] Genetic algo
