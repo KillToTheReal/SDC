@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    background: darkgray;
+    overflow: hidden;
+    text-align: center;
+}
+
+#canv{
+    background: lightgray;
+    
+}
