@@ -15,6 +15,10 @@ class Car {
   }
 
   update() {
+    this.#move();
+  }
+
+  #move() {
     // Forward / Reverse
     if (this.controls.forward) {
       this.speed += this.acceleration;
@@ -45,12 +49,12 @@ class Car {
     }
 
     /* IMPORTANT TO REMEMBER WHEN WORKING WITH ANGLES
-       Because of x and y rotation in canvas, our unit circle is rotated
-       90deg left, as:
-            0
-       Pi/2   -Pi/2
-            Pi
-    */
+         Because of x and y rotation in canvas, our unit circle is rotated
+         90deg left, as:
+              0
+         Pi/2   -Pi/2
+              Pi
+      */
     //Flipping the controls backwards when reverse driving
     if (this.speed != 0) {
       const flip = this.speed > 0 ? 1 : -1;

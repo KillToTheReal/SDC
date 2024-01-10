@@ -1,7 +1,7 @@
 # TODO
 
 - [x] Car physics and steering
-- [ ] Road generation
+- [x] Road generation
 - [ ] Sensors
 - [ ] Collisions
 - [ ] Neural networks part
