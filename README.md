@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] Car physics and steering
+- [x] Car physics and steering
 - [ ] Road generation
 - [ ] Sensors
 - [ ] Collisions
